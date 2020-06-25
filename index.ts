@@ -16,3 +16,6 @@ class Customer{
 var cust1:Customer =new Customer("shreyas","A",21);
 console.log(cust1.custName);
 cust1.hello();
+//output:
+//shreyas
+//hello shreyas
