@@ -6,7 +6,7 @@ class Customer{
   //constructor
   constructor(custName:string,className:string,age:number){
     this.custName=custName;
-    className=className;
+    this.className=className;
     this.age=age;
   }
   //function
@@ -18,6 +18,8 @@ class Customer{
 }
 var cust1:Customer =new Customer("shreyas","A",21);
 console.log(cust1.custName);
+console.log(cust1.className);
+console.log(cust1.age);
 cust1.hello();
 //output:
 //shreyas
