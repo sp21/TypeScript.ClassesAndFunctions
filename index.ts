@@ -1,5 +1,6 @@
 class Customer{
   //fields
+  //each memeber is public by default
   custName:string;
   className:string;
   age:number;
