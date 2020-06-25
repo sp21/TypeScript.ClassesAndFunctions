@@ -1,12 +1,15 @@
 class Customer{
+  //fields
   custName:string;
   className:string;
   age:number;
+  //constructor
   constructor(custName:string,className:string,age:number){
     this.custName=custName;
     className=className;
     this.age=age;
   }
+  //function
   hello():Boolean{
   console.log("hello shreyas")
   return true;
